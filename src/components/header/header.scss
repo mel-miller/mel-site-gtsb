@@ -1,0 +1,16 @@
+@import '../global.scss';
+
+.header {
+  background: $blue;
+  color: white;
+}
+
+.site-title__link {
+  color: white;
+  font-size: 150%;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue-light;
+  }
+}

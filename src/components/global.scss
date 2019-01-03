@@ -1,0 +1,46 @@
+////// variables //////
+
+//base colors
+$orange: #c9510c;
+$blue-light: #ddf0f4;
+$blue: #008198;
+$gray-light: #ddd;
+$gray: #666;
+$gray-dark: #2f2f2f;
+
+//social colors
+$github: #6e5494;
+$drupal: #0678BE;
+$linkedin: #007bb5;
+$instagram: #c13584;
+
+//layout
+$max-width: 800px;
+
+
+////// global styles //////
+
+//layout
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 1em 0;
+
+  @media only screen and (max-width: $max-width * 1.1) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+//typography
+//mostly configured via typogrphy.js
+
+
+//accessibility
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
