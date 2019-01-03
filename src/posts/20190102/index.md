@@ -1,7 +1,8 @@
 ---
 path: "/first-post"
 title: "First Test Post"
-date: 'January 2, 2019'
+date: '2019-01-02'
+published: true
 ---
 Lorem ipsum dolor amet af meh bushwick enamel pin knausgaard, ugh blog quinoa gochujang. Knausgaard leggings flexitarian selvage food truck craft beer disrupt kale chips vinyl marfa fashion axe flannel. Venmo yuccie keytar tofu craft beer organic trust fund keffiyeh fingerstache viral roof party forage. Mlkshk jianbing pok pok, pour-over williamsburg vaporware chia yuccie sriracha heirloom. Pug shabby chic palo santo man braid edison bulb wayfarers twee aesthetic fixie selfies shoreditch.
 

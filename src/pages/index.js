@@ -10,30 +10,37 @@ const IndexPage = ({data}) => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div className="post-list">
+      <h2>Post Index</h2>
+      <ul>
+        {data.allMarkdownRemark.edges.map(post => (
+          <li>
+            <Link
+              key={post.node.id}
+              to={post.node.frontmatter.path}>
+              {post.node.frontmatter.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <h2>Index</h2>
-    {data.allMarkdownRemark.edges.map(post => (
-      <Link
-        key={post.node.id}
-        to={post.node.frontmatter.path}>
-        {post.node.frontmatter.title}
-      </Link>
-    ))}
   </Layout>
 )
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(limit: 5) {
+    allMarkdownRemark(
+      limit: 5
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { published: { eq: true } } }
+    ) {
       edges {
         node {
           id
           frontmatter {
             title
-            date
             path
+            published
           }
         }
       }
