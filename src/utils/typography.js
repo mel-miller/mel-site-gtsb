@@ -1,19 +1,9 @@
 import Typography from 'typography'
 import noriegaTheme from 'typography-theme-noriega'
-noriegaTheme.bodyWeight = 300
 noriegaTheme.baseFontSize = '16px'
-noriegaTheme.scaleRatio = 1.8
-noriegaTheme.googleFonts = [
-  {
-    name: 'Lato',
-    styles: [
-      '300',
-      '300i',
-      '700',
-      '700i',
-    ],
-  },
-]
+noriegaTheme.scaleRatio = 2
+noriegaTheme.blockMarginBottom = 0.9
+noriegaTheme.baseLineHeight = 1.5
 
 const typography = new Typography(noriegaTheme)
 
