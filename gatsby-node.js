@@ -6,7 +6,7 @@
 
 const path = require('path');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
+exports.createPages = ({actions, graphql}) => {
   const {createPage} = boundActionCreators;
   const postTemplate = path.resolve('src/templates/post.js');
   return graphql(`{
