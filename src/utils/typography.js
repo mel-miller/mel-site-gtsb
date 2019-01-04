@@ -3,14 +3,14 @@ import Typography from 'typography'
 const typography = new Typography({
   baseFontSize: '17px',
   baseLineHeight: 1.55,
-  headerFontFamily: ['Source Sans Pro', 'sans-serif'],
-  bodyFontFamily: ['Source Sans Pro', 'sans-serif'],
+  headerFontFamily: ['Open Sans', 'sans-serif'],
+  bodyFontFamily: ['Open Sans', 'sans-serif'],
   bodyWeight: 400,
   headerWeight: 700,
   boldWeight: 600,
   googleFonts: [
     {
-      name: 'Source Sans Pro',
+      name: 'Open Sans',
       styles: ['400','400i','600','700'],
     },
   ],
