@@ -2,7 +2,7 @@
 
 //base colors
 $orange: #c9510c;
-$blue-light: #ddf0f4;
+$blue-light: #A5D6DF;
 $blue: #008198;
 $gray-light: #ddd;
 $gray: #666;
@@ -33,7 +33,13 @@ $max-width: 800px;
 }
 
 //typography
-//mostly configured via typogrphy.js
+//mostly configured via typography.js
+//overrides or new styles here
+.intro-text {
+  font-size: 125%;
+  width: 75%;
+  margin: 0 auto;
+}
 
 
 //accessibility

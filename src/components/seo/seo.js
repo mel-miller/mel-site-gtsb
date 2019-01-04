@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import './seo.scss'
+
 function SEO({ description, lang, meta, keywords, title, bodyClass }) {
   return (
     <StaticQuery

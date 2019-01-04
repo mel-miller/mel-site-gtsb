@@ -11,7 +11,7 @@ const typography = new Typography({
   googleFonts: [
     {
       name: 'Open Sans',
-      styles: ['400','400i','600','700'],
+      styles: ['300','400','400i','600','700'],
     },
   ],
   scaleRatio: 2.1,
