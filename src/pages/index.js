@@ -7,7 +7,7 @@ import Me from '../components/images/me'
 
 const IndexPage = () => (
   <Layout noHeader>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} bodyClass='blue center' />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} bodyClass='blue center' />
     <Me />
     <h1>Hey there.</h1>
     <p className="intro-text">My name is Melissa Miller, and I’m a web developer and designer.</p>
