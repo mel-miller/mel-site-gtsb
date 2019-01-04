@@ -6,7 +6,7 @@ import Header from '../header/header'
 import MainContent from '../main-content/main-content'
 import './layout.scss'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, noHeader }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -19,7 +19,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        { noHeader
+          ? null
+          : <Header siteTitle={data.site.siteMetadata.title} />
+        }
         <MainContent content={children} />
       </div>
     )}
