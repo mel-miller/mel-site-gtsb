@@ -1,0 +1,11 @@
+@import '../global.scss';
+
+.social-link {
+  margin: 0 0.375em;
+  font-size: 1.8em;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+}
