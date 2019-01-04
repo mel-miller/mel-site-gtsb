@@ -11,7 +11,7 @@ library.add(fab, fas)
 const SocialLink = ({icon, prefix, link, name}) => (
   <a href={link} target="_blank" rel="noopener noreferrer" className={`social-link social-link--${name}`}>
     <span class="visually-hidden">{`Link to Melissa's ${name}`}</span>
-    <FontAwesomeIcon icon={[prefix, icon]} inverse/>
+    <FontAwesomeIcon icon={[prefix, icon]} fixedWidth inverse/>
   </a>
 )
 
