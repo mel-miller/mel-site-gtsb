@@ -29,8 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `mel-miller`,
         start_url: `/`,
         background_color: `#008198`,
         theme_color: `#008198`,

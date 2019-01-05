@@ -6,8 +6,8 @@
 
 const path = require('path');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
-  const {createPage} = boundActionCreators;
+exports.createPages = ({actions, graphql}) => {
+  const {createPage} = actions;
   const postTemplate = path.resolve('src/templates/post.js');
   return graphql(`{
     allMarkdownRemark {
@@ -35,4 +35,10 @@ exports.createPages = ({boundActionCreators, graphql}) => {
       })
     })
   })
+}
+
+exports.createPages = ({actions}) => {
+  const {createRedirect} = actions;
+  createRedirect({ fromPath: "http://mel-miller.netlify.com/*", toPath: "http://mel-miller.com/:splat", isPermanent: true, force: true });
+
 }
