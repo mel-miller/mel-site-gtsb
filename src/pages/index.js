@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout/layout'
 import SEO from '../components/seo/seo'
-import SocialBlock from '../components/social-block/social-block'
+import SocialBlock from '../components/SocialBlock'
 import MelMug from '../components/images/MelMug'
 
 const IndexPage = () => (
