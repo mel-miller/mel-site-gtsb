@@ -1,12 +1,13 @@
 import React from 'react'
+
 import Layout from '../components/layout/layout'
-import SEO from '../components/seo/seo'
+import SEO from '../components/SEO'
 import SocialBlock from '../components/SocialBlock'
 import MelMug from '../components/images/MelMug'
 
 const IndexPage = () => (
   <Layout noHeader>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} bodyClass='blue center' />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} bodyClass="blue center" />
     <MelMug />
     <h1>Hey there.</h1>
     <p className="intro-text">My name is Melissa Miller, and I’m a web developer and designer.</p>

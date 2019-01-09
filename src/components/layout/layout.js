@@ -6,6 +6,9 @@ import { ThemeProvider } from 'styled-components';
 import Header from '../Header'
 import MainContent from '../MainContent'
 
+//import global styles here only
+import './global.scss'
+
 // Extract Sass variables into a JS object
 const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./vars.scss');
 

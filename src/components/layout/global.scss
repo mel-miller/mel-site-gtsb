@@ -15,6 +15,19 @@
   }
 }
 
+//body class variations
+//body classes are applied via props passed to the SEO component
+body.blue {
+  background: $blue;
+  color: white;
+}
+
+body.center {
+  .main-content {
+    text-align: center;
+  }
+}
+
 //typography
 //mostly configured via typography.js
 //overrides or new styles here
