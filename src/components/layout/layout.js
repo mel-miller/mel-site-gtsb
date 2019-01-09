@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { ThemeProvider } from 'styled-components';
 
 import Header from '../header/header'
-import MainContent from '../main-content/main-content'
+import MainContent from '../MainContent'
 
 // Extract Sass variables into a JS object
 const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./vars.scss');
