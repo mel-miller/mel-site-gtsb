@@ -3,30 +3,33 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import MainMenu from './MainMenu'
+import logo from '../images/mm-logo.svg'
+
 
 const Wrapper = styled.header`
   background: ${props => props.theme.blue};
   color: white;
+  padding-top: 12px;
+  padding-bottom: 6px;
 `
 const HomeLink = styled(Link)`
-  color: white;
-  font-size: 150%;
-  text-decoration: none;
-
+  display: inline-block;
   &:hover {
-    ${props => props.theme.blueLight};
+    filter: brightness(2);
   }
+`
+const Logo = styled.img`
+  height: 30px;
+  margin: 0;
 `
 
 const Header = ({ siteTitle }) => (
   <Wrapper>
     <div className="container">
-      <div>
-        <HomeLink to="/">
-          {siteTitle}
-        </HomeLink>
-        <MainMenu />
-      </div>
+      <HomeLink to="/">
+        <Logo src={logo} alt={siteTitle} />
+      </HomeLink>
+      <MainMenu />
     </div>
   </Wrapper>
 )

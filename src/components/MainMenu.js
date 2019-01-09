@@ -8,10 +8,10 @@ const Menu = styled.nav`
 
 const MenuLink = styled(Link)`
   color: white;
-  font-size: 1rem;
   text-decoration: none;
-  font-weight: 300;
-  margin-right: 1em;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 1.25em;
 
   &:hover {
     color: ${props => props.theme.blueLight};
