@@ -1,25 +1,8 @@
-////// variables //////
-
-//base colors
-$orange: #c9510c;
-$blue-light: #A5D6DF;
-$blue: #008198;
-$gray-light: #ddd;
-$gray: #666;
-$gray-dark: #2f2f2f;
-
-//social colors
-$github: #6e5494;
-$drupal: #0678BE;
-$linkedin: #007bb5;
-$instagram: #c13584;
-
-//layout
-$max-width: 800px;
+//// import variables ////
+@import './vars.scss';
 
 
-////// global styles //////
-
+//// global styles ////
 //layout
 .container {
   max-width: $max-width;
