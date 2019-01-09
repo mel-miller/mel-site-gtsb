@@ -3,11 +3,14 @@
 
 
 //// global styles ////
+//resets
+
+
+
 //layout
 .container {
   max-width: $max-width;
   margin: 0 auto;
-  padding: 1em 0;
 
   @media only screen and (max-width: $max-width * 1.1) {
     padding-left: 5%;
@@ -32,7 +35,7 @@ body.center {
 //mostly configured via typography.js
 //overrides or new styles here
 .intro-text {
-  font-size: 120%;
+  font-size: 125%;
   width: 60%;
   margin: 0 auto;
 
