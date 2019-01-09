@@ -26,7 +26,7 @@ const MenuLink = styled(Link)`
 const MainMenu = () => (
   <Menu aria-label="Main navigation">
     <MenuLink to="/">Home</MenuLink>
-    <MenuLink to="/about">About</MenuLink>
+    { /* <MenuLink to="/about">About</MenuLink> */ }
   </Menu>
 )
 
