@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Melissa A. Miller`,
-    description: `Personal site.`,
+    title: `Melissa Miller`,
+    description: `Personal website for Melissa Miller — Web developer and designer.`,
     author: `mel-miller`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
@@ -29,8 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `mel-miller`,
         start_url: `/`,
         background_color: `#008198`,
         theme_color: `#008198`,
@@ -44,5 +44,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    `gatsby-plugin-netlify`,
   ],
 }
