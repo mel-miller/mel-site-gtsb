@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { ThemeProvider } from 'styled-components';
 
-import Header from '../header/header'
+import Header from '../Header'
 import MainContent from '../MainContent'
 
 // Extract Sass variables into a JS object
