@@ -39,6 +39,6 @@ exports.createPages = ({actions, graphql}) => {
 
 exports.createPages = ({actions}) => {
   const {createRedirect} = actions;
-  createRedirect({ fromPath: "http://mel-miller.netlify.com/*", toPath: "http://mel-miller.com/:splat", isPermanent: true, force: true });
+  createRedirect({ fromPath: "https://mel-miller.netlify.com/*", toPath: "https://mel-miller.com/:splat", isPermanent: true, force: true });
 
 }
