@@ -2,8 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout';
 
-import './post.scss';
-
 export default function Template({data}) {
   const post = data.markdownRemark;
   return (
@@ -15,9 +13,13 @@ export default function Template({data}) {
   )
 }
 
-export const postQuery = graphql`
+export const query  = graphql`
   query BlogPostByPath($slug: String!) {
-    markdownRemark(frontmatter: { slug: {eq: $path} }) {
+    markdownRemark(frontmatter: {
+      slug: {
+        eq: $slug
+      }
+    }) {
       html
       frontmatter {
         slug
@@ -26,4 +28,4 @@ export const postQuery = graphql`
       }
     }
   }
-`
+`;

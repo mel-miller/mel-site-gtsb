@@ -2,12 +2,16 @@ const path = require('path');
 
 
 exports.createPages = ({ graphql, actions }) => {
-  //create resume page
+  // generate pages from markdown files
   const { createPage } = actions;
+
+  const resumeTemplate = path.resolve('./src/templates/resume.js');
+  const postTemplate = path.resolve('./src/templates/post.js')
+
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark(filter: {frontmatter: {pagetype: {eq: "resume"}}}) {
+        allMarkdownRemark {
           edges {
             node {
               frontmatter {
@@ -20,20 +24,28 @@ exports.createPages = ({ graphql, actions }) => {
       }
     `).then(results => {
       results.data.allMarkdownRemark.edges.forEach(({node}) => {
-        createPage({
-          path: node.frontmatter.slug,
-          component: path.resolve('./src/templates/resume.js'),
-          context: {
-            slug: node.frontmatter.slug,
-          }
-        });
+        if(node.frontmatter.pagetype === "resume") {
+          createPage({
+            path: node.frontmatter.slug,
+            component: resumeTemplate,
+            context: {
+              slug: node.frontmatter.slug,
+            }
+          });
+        } else {
+          createPage({
+            path: node.frontmatter.slug,
+            component: postTemplate,
+            context: {
+              slug: node.frontmatter.slug,
+            }
+          });
+        }
       })
       resolve();
     })
   });
 
-
-  //create blog post pages
 
   //create redirects for Netlify site
   const { createRedirect } = actions;
