@@ -1,44 +1,42 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require('path');
 
-exports.createPages = ({actions, graphql}) => {
-  const {createPage} = actions;
-  const postTemplate = path.resolve('src/templates/post.js');
-  return graphql(`{
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          id
-          frontmatter {
-            path
-            title
-            date
+
+exports.createPages = ({ graphql, actions }) => {
+  //create resume page
+  const { createPage } = actions;
+  return new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark(filter: {frontmatter: {pagetype: {eq: "resume"}}}) {
+          edges {
+            node {
+              frontmatter {
+                slug
+                pagetype
+              }
+            }
           }
         }
       }
-    }
-  }`)
-  .then(res => {
-    if(res.errors) {
-      return Promise.reject(res.errors);
-    }
-    res.data.allMarkdownRemark.edges.forEach( ({node}) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: postTemplate,
+    `).then(results => {
+      results.data.allMarkdownRemark.edges.forEach(({node}) => {
+        createPage({
+          path: node.frontmatter.slug,
+          component: path.resolve('./src/templates/resume.js'),
+          context: {
+            slug: node.frontmatter.slug,
+          }
+        });
       })
+      resolve();
     })
-  })
-}
+  });
 
-exports.createPages = ({actions}) => {
-  const {createRedirect} = actions;
+
+  //create blog post pages
+
+  //create redirects for Netlify site
+  const { createRedirect } = actions;
   createRedirect({ fromPath: "https://mel-miller.netlify.com/*", toPath: "https://mel-miller.com/:splat", isPermanent: true, force: true });
 
 }
