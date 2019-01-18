@@ -1,7 +1,18 @@
 ---
+pagetype: "resume"
 slug: "/resume"
 name: "Melissa Miller"
 email: "miller.2676@gmail.com"
-pagetype: "resume"
+phone: "614-937-9671"
 ---
-Future resume.
+## Summary
+___
+
+## Skills & Endorsements
+___
+
+## Experience
+___
+
+## Education
+___

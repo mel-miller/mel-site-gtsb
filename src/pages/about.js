@@ -1,15 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
 import SEO from '../components/SEO'
 
-const About = () => (
+const About = ({children}) => (
   <Layout>
-    <SEO title="About" />
-    <h1>About Gatsby</h1>
-    <p>Such wow. Very React.</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="About Me" />
+    <h1>About</h1>
   </Layout>
 )
 
