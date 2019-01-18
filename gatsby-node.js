@@ -5,7 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
   // generate pages from markdown files
   const { createPage } = actions;
 
-  const resumeTemplate = path.resolve('./src/templates/Resume.js');
+  const aboutTemplate = path.resolve('./src/templates/About.js');
   const postTemplate = path.resolve('./src/templates/Post.js');
 
   return new Promise((resolve, reject) => {
@@ -26,10 +26,10 @@ exports.createPages = ({ graphql, actions }) => {
       results.data.allMarkdownRemark.edges.forEach(({node}) => {
         const pageSlug = node.frontmatter.slug;
 
-        if(node.frontmatter.pagetype === "resume") {
+        if(node.frontmatter.pagetype === "about") {
           createPage({
             path: pageSlug,
-            component: resumeTemplate,
+            component: aboutTemplate,
             context: {
               slug: pageSlug,
             }
