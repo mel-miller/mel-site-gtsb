@@ -5,12 +5,12 @@ import Layout from '../components/layout/layout';
 
 
 export default function About({data}) {
-  const node = data.markdownRemark;
+  const about = data.markdownRemark;
 
   return (
     <Layout>
-        <h1>{node.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{__html: node.html}}/>
+      <h1>{about.frontmatter.title}</h1>
+      <div dangerouslySetInnerHTML={{__html: about.html}}/>
     </Layout>
   )
 }
