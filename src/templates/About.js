@@ -7,7 +7,7 @@ import Layout from '../components/layout/layout';
 const Resume = styled.div`
   h2 {
     color: ${props => props.theme.blue};
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 40px;
     margin-bottom: 0;
   }
