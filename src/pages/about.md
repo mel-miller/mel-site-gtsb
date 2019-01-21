@@ -4,8 +4,12 @@ slug: "/about"
 title: "About Me"
 ---
 
-Lorem ipsum dolor amet affogato fanny pack woke, try-hard banjo wolf retro twee. Fixie hoodie chia franzen, tilde blog helvetica poke hella live-edge. Woke keytar fixie master cleanse chillwave quinoa ugh, church-key jianbing normcore beard skateboard ethical. Man braid mumblecore iceland activated charcoal whatever cray waistcoat stumptown ramps squid tumeric food truck blog succulents chicharrones. Edison bulb wayfarers yr coloring book, ramps pickled fam normcore.
+I am a designer turned developer with a penchant for front-end development and site building. I began using Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal Camps, helped organize a few, and have attended DrupalCon each year since 2012.
 
-## Skills
+More recently, I’ve increased my scope and am also working on projects using React.js and Gatsby.js — and am loving both.
 
-## Professional Experience
+I currently manage a nine-person team of developers and designers at The Ohio State University. Together, we are responsible for a portfolio websites and applications, a Drupal site building service, and all aspects of visual design for the Offices of the Chief Information Officer.
+
+When I’m not making websites, I like to bike around the city, play various musical instruments, study urban history, and spend time with my partner and our doggo.
+
+---
