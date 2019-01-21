@@ -84,22 +84,29 @@ Advised student editors on all visual-based aspects of newspaper production for 
 ## PRESENTATIONS
 
 ### Higher Education Summit: Panel on Community Building (panelist)
-#### Bay Area Drupal Camp | October 2018
+#### Bay Area Drupal Camp
+##### October 2018
 
 ### Creating a Successful Service Roadmap for a Higher Ed Web Team (panelist)
-#### Stanford Drupal Camp | April 2018
+#### Stanford Drupal Camp
+##### April 2018
 
 ### Scaling Drupal for Higher-Ed (panelist)
-#### DrupalCon New Orleans | May 2016
+#### DrupalCon New Orleans
+##### May 2016
 
 ### Everything* You Need to Know About Visual Design
-#### The Ohio State University,  iBook Bootcamp |  January 2014
+#### The Ohio State University,  iBook Bootcamp
+##### January 2014
 
 ### A Beginner's Guide to Drupal Site Building
-#### Drupal Camp Ohio | December 2013
+#### Drupal Camp Ohio
+##### December 2013
 
 ### Absolute Beginner's Guide to Site Building — for Designers
-#### Twin Cities Drupal Camp |  July 2013
+#### Twin Cities Drupal Camp
+##### July 2013
 
 ### Introduction to Drupal Theming
-#### Drupal Camp Ohio | November 2012
+#### Drupal Camp Ohio
+##### November 2012
