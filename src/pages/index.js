@@ -29,6 +29,11 @@ const MoreButton = styled(Link)`
   display: inline-block;
   margin-top: 30px;
 
+  &:focus {
+    outline: 1px dotted white;
+    outline-offset: 4px;
+  }
+
   &:hover {
     color: ${props => props.theme.blue};
     background: white;
