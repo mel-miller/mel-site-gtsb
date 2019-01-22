@@ -22,6 +22,11 @@ const MenuLink = styled(Link)`
   &[aria-current="page"] {
     border-bottom: 2px solid ${props => props.theme.blueLight};
   }
+
+  &:focus {
+    outline: 1px dotted white;
+    outline-offset: 4px;
+  }
 `
 
 const MainMenu = () => (
