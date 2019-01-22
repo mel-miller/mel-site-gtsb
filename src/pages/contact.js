@@ -74,6 +74,7 @@ const ContactPage = () => (
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
+    <input type="hidden" name="bot-field" />
       <FormFieldShort>
         <Label for="name">Name</Label>
         <Input name="name" type="text"/>
@@ -84,7 +85,7 @@ const ContactPage = () => (
       </FormFieldShort>
       <FormField>
         <Label for="message">Message</Label>
-        <Textarea name="message" rows="5"></Textarea>
+        <Textarea name="message" rows="5" />
       </FormField>
       <Button>Submit</Button>
     </form>
