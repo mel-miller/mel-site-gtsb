@@ -11,6 +11,9 @@ const FormFieldShort = styled.div`
   margin-top: 20px;
   max-width: 300px;
 `
+const HiddenField = styled.p`
+  display: none;
+`
 const Label = styled.label`
   font-weight: 600;
   font-size: 14px;
@@ -70,10 +73,13 @@ const ContactPage = () => (
     <h1>Contact Me</h1>
     <form
       name="contact"
-      method="post"
+      method="POST"
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      netlify-honeypot="bot-field"
     >
+    <HiddenField>
+      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </HiddenField>
       <FormFieldShort>
         <Label for="name">Name</Label>
         <Input name="name" type="text"/>
@@ -84,7 +90,7 @@ const ContactPage = () => (
       </FormFieldShort>
       <FormField>
         <Label for="message">Message</Label>
-        <Textarea name="message" rows="5"></Textarea>
+        <Textarea name="message" rows="5" />
       </FormField>
       <Button>Submit</Button>
     </form>
