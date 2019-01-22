@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2.1] - 2019-01-22
+### Fixed
+- Form Submissions
+
 
 ## [1.2.0] - 2019-01-22
 ### Added
@@ -27,6 +31,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Netlify redirect
 - Begin using Styled Components
 - Style Header and Main Menu
+
 
 ## [1.0.0] - 2019-01-04
 ### Added
