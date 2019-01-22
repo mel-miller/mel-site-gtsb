@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import styled from 'styled-components'
 
 import Layout from '../components/layout/layout';
+import MelYoung from '../components/images/MelYoung'
 
 const Resume = styled.div`
   h2 {
@@ -45,6 +46,7 @@ export default function About({data}) {
   return (
     <Layout>
       <h1>{about.frontmatter.title}</h1>
+      <MelYoung />
       <Resume dangerouslySetInnerHTML={{__html: about.html}}/>
     </Layout>
   )
