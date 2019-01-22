@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import SocialLink from './SocialLink'
 
 const Block = styled.div`
-  margin-top: 1.5em;
+  margin-top: 2em;
 `
 
 const SocialBlock = () => (

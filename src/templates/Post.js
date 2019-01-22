@@ -15,7 +15,7 @@ export default function Post({data}) {
 }
 
 export const query  = graphql`
-  query BlogPostByPath($slug: String!) {
+  query PostByPath($slug: String!) {
     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
       html
       frontmatter {

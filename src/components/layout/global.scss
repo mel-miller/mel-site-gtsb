@@ -34,15 +34,6 @@ body.center {
 //typography
 //mostly configured via typography.js
 //overrides or new styles here
-.intro-text {
-  font-size: 125%;
-  width: 60%;
-  margin: 0 auto;
-
-  @media only screen and (max-width: 600px) {
-    width: 80%;
-  }
-}
 
 //images
 
