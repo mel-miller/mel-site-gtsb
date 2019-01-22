@@ -7,32 +7,38 @@ import SEO from '../components/SEO'
 const FormField = styled.div`
   margin-top: 20px;
 `
+const FormFieldShort = styled.div`
+  margin-top: 20px;
+  max-width: 300px;
+`
 const Label = styled.label`
   font-weight: 600;
   font-size: 14px;
   display: block;
   padding-bottom: 5px;
 `
-const Input= styled.input`
+const Input = styled.input`
   width: 100%;
   border: 1px solid ${props => props.theme.grayLight};
+  font-size: 14px;
 
   &:focus {
     border: 1px solid ${props => props.theme.orange};
     outline: none;
   }
 `
-const Textarea= styled.textarea`
+const Textarea = styled.textarea`
   display: block;
   width: 100%;
   border: 1px solid ${props => props.theme.grayLight};
+  font-size: 14px;
 
   &:focus {
     border: 1px solid ${props => props.theme.orange};
     outline: none;
   }
 `
-const Button= styled.button`
+const Button = styled.button`
   border: none;
   border-radius: 8px;
   padding: 8px 14px;
@@ -68,14 +74,14 @@ const ContactPage = () => (
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
-      <FormField>
+      <FormFieldShort>
         <Label for="name">Name</Label>
         <Input name="name" type="text"/>
-      </FormField>
-      <FormField>
+      </FormFieldShort>
+      <FormFieldShort>
         <Label for="email">Email</Label>
         <Input name="email" type="email"/>
-      </FormField>
+      </FormFieldShort>
       <FormField>
         <Label for="message">Message</Label>
         <Textarea name="message" rows="5"></Textarea>
