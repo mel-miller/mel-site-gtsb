@@ -35,6 +35,21 @@ body.center {
 //mostly configured via typography.js
 //overrides or new styles here
 
+a {
+  color: $orange;
+  text-decoration: none;
+  font-weight: 400;
+
+  &:focus {
+    outline: 1px dotted $orange;
+    outline-offset: 1px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 //images
 
 //accessibility
