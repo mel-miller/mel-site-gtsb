@@ -1,44 +1,56 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require('path');
 
-exports.createPages = ({actions, graphql}) => {
-  const {createPage} = actions;
-  const postTemplate = path.resolve('src/templates/post.js');
-  return graphql(`{
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          id
-          frontmatter {
-            path
-            title
-            date
+
+exports.createPages = ({ graphql, actions }) => {
+  // generate pages from markdown files
+  const { createPage } = actions;
+
+  const aboutTemplate = path.resolve('./src/templates/About.js');
+  const postTemplate = path.resolve('./src/templates/Post.js');
+
+  return new Promise((resolve, reject) => {
+    graphql(`
+      {
+        allMarkdownRemark {
+          edges {
+            node {
+              frontmatter {
+                slug
+                pagetype
+              }
+            }
           }
         }
       }
-    }
-  }`)
-  .then(res => {
-    if(res.errors) {
-      return Promise.reject(res.errors);
-    }
-    res.data.allMarkdownRemark.edges.forEach( ({node}) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: postTemplate,
-      })
-    })
-  })
-}
+    `).then(results => {
+      results.data.allMarkdownRemark.edges.forEach(({node}) => {
+        const pageSlug = node.frontmatter.slug;
 
-exports.createPages = ({actions}) => {
-  const {createRedirect} = actions;
+        if(node.frontmatter.pagetype === "about") {
+          createPage({
+            path: pageSlug,
+            component: aboutTemplate,
+            context: {
+              slug: pageSlug,
+            }
+          });
+        } else {
+          createPage({
+            path: pageSlug,
+            component: postTemplate,
+            context: {
+              slug: pageSlug,
+            }
+          });
+        }
+      })
+      resolve();
+    })
+  });
+
+
+  //create redirects for Netlify site
+  const { createRedirect } = actions;
   createRedirect({ fromPath: "https://mel-miller.netlify.com/*", toPath: "https://mel-miller.com/:splat", isPermanent: true, force: true });
 
 }

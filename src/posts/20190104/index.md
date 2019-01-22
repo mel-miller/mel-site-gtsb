@@ -1,5 +1,5 @@
 ---
-path: "/example-post"
+slug: "/example-post"
 title: "Example Post"
 date: '2019-01-04'
 published: true

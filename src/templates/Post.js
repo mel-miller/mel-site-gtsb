@@ -2,10 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout';
 
-import './post.scss';
-
-export default function Template({data}) {
+export default function Post({data}) {
   const post = data.markdownRemark;
+
   return (
     <Layout>
       <h1 className="page-title">{post.frontmatter.title}</h1>
@@ -15,15 +14,15 @@ export default function Template({data}) {
   )
 }
 
-export const postQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: {eq: $path} }) {
+export const query  = graphql`
+  query PostByPath($slug: String!) {
+    markdownRemark(frontmatter: {slug: {eq: $slug}}) {
       html
       frontmatter {
-        path
+        slug
         title
         date
       }
     }
   }
-`
+`;

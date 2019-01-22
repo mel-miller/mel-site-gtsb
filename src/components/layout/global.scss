@@ -18,7 +18,7 @@
   }
 }
 
-//body class variations
+//body
 //body classes are applied via props passed to the SEO component
 body.blue {
   background: $blue;
@@ -34,13 +34,19 @@ body.center {
 //typography
 //mostly configured via typography.js
 //overrides or new styles here
-.intro-text {
-  font-size: 125%;
-  width: 60%;
-  margin: 0 auto;
 
-  @media only screen and (max-width: 600px) {
-    width: 80%;
+a {
+  color: $orange;
+  text-decoration: none;
+  font-weight: 400;
+
+  &:focus {
+    outline: 1px dotted $orange;
+    outline-offset: 1px;
+  }
+
+  &:hover {
+    text-decoration: underline;
   }
 }
 

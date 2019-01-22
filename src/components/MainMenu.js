@@ -12,21 +12,28 @@ const MenuLink = styled(Link)`
   font-size: 16px;
   line-height: 1.9;
   font-weight: 400;
-  margin-right: 1.25em;
-
-  &:hover {
-    color: ${props => props.theme.blueLight};
-  }
+  margin-right: 1.75em;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:hover,
+  &[aria-current="page"] {
+    border-bottom: 2px solid ${props => props.theme.blueLight};
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 1px dotted white;
+    outline-offset: 4px;
   }
 `
 
 const MainMenu = () => (
   <Menu aria-label="Main navigation">
-    <MenuLink to="/">Home</MenuLink>
-    { /* <MenuLink to="/about">About</MenuLink> */ }
+    <MenuLink to="/about">About</MenuLink>
+    <MenuLink to="/contact">Contact</MenuLink>
   </Menu>
 )
 
