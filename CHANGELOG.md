@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.2.0] - 2019-01-22
+### Added
+- About page with Resume
+- Contact form
+- Site footer
+
+
 ## [1.1.1] - 2019-01-09
 ### Added
 - Changelog
