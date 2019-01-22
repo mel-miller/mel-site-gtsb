@@ -6,7 +6,7 @@ import SocialBlock from './SocialBlock'
 const Wrapper = styled.footer`
   background: ${props => props.theme.blue};
   color: white;
-  border-top: 4px solid ${props => props.theme.blueLight};
+  border-top: 3px solid ${props => props.theme.blueLight};
   padding-top: 20px;
 `
 const FinePrint = styled.p`
