@@ -42,7 +42,7 @@ const IndexPage = () => (
     <MelMug />
     <h1>Hey there.</h1>
     <IntroText>My name is Melissa Miller, and I’m a web developer and designer living in San Francisco.</IntroText>
-    <MoreButton to="/about">Yes, there's more to it.</MoreButton>
+    <MoreButton to="/about">Yes, there's more.</MoreButton>
     <SocialBlock />
   </Layout>
 )
