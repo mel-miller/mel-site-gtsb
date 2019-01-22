@@ -4,9 +4,13 @@ slug: "/about"
 title: "About Me"
 ---
 
-I am a designer turned developer with a penchant for front-end development and site building. I began using Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps, helped organize a few, and have attended DrupalCon each year since 2012. I’ve recently increased my scope and am also working on projects using React.js and Gatsby.js.
+I am a designer turned developer with a penchant for front-end development and site building.
 
-When I’m not making websites, I like to bike around the city, play various musical instruments, research urban history, and spend time with my partner and our doggo.  
+I began using Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps, helped organize a few, and have attended DrupalCon each year since 2012.
+
+I’ve recently increased my scope and am also working on projects using React.js and Gatsby.js.
+
+When I’m not making websites, I like to bike around the city, play various musical instruments, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, research urban history, and spend time with my partner and our <a href="https://www.instagram.com/mrsbeagleface/" target="_blank">doggo</a>.  
 
 <br/>
 
@@ -81,7 +85,7 @@ Advised student editors on all visual-based aspects of newspaper production for 
 #### Project Management Institute
 
 
-## PRESENTATIONS
+## SELECTED PRESENTATIONS
 
 ### Higher Education Summit: Panel on Community Building (panelist)
 #### Bay Area Drupal Camp
