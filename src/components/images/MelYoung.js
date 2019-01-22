@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 const Photo = styled(Img)`
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px 30px;
   float: right;
 `
 

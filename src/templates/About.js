@@ -8,8 +8,8 @@ import MelYoung from '../components/images/MelYoung'
 const Resume = styled.div`
   h2 {
     color: ${props => props.theme.blue};
-    font-size: 19px;
-    margin-top: 40px;
+    font-size: 20px;
+    margin-top: 50px;
     margin-bottom: 0;
   }
   h3 {
@@ -36,6 +36,9 @@ const Resume = styled.div`
   }
   li {
     list-style: none;
+  }
+  hr {
+    margin-bottom: -15px;
   }
 `
 
