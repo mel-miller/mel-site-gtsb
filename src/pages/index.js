@@ -39,6 +39,7 @@ const MoreButton = styled(Link)`
     color: ${props => props.theme.blue};
     background: white;
     border: 1px solid ${props => props.theme.blueLight};
+    text-decoration: none;
   }
 
   &:active {
