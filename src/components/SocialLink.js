@@ -8,11 +8,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(fab, fas)
 
 const Link = styled.a`
-  font-size: 1.625em;
-  opacity: 0.8;
-  padding: 0.125em 0.25em;
+  color: white;
+  font-size: 1.875em;
+  padding: 0.125em 0.375em;
     &:hover {
-      opacity: 1;
+      color: ${props => props.theme.blueLight};
     }
     &:focus {
       outline: 1px dotted white;
@@ -22,7 +22,7 @@ const Link = styled.a`
 const SocialLink = ({icon, prefix, link, name}) => (
   <Link href={link} target="_blank" rel="noopener noreferrer">
     <span className="visually-hidden">{`Link to Melissa's ${name}`}</span>
-    <FontAwesomeIcon icon={[prefix, icon]} fixedWidth inverse />
+    <FontAwesomeIcon icon={[prefix, icon]} fixedWidth />
   </Link>
 )
 
