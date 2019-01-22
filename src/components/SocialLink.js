@@ -20,7 +20,7 @@ const Link = styled.a`
 `
 
 const SocialLink = ({icon, prefix, link, name}) => (
-  <Link href={link} target="_blank" rel="noopener noreferrer" className={`social-link social-link--${name}`}>
+  <Link href={link} target="_blank" rel="noopener noreferrer">
     <span className="visually-hidden">{`Link to Melissa's ${name}`}</span>
     <FontAwesomeIcon icon={[prefix, icon]} fixedWidth inverse />
   </Link>
