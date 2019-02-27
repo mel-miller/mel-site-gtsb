@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Updated
 - Front-page image
 
+### Added
+- Behance SocialLink
+
 ## [1.2.1] - 2019-01-22
 ### Fixed
 - Form Submissions
