@@ -10,7 +10,7 @@ I began using Drupal in 2011 and have been an evangelist for it ever since. I’
 
 I’ve recently increased my scope and am also working on projects using React.js and Gatsby.js.
 
-When I’m not making websites, I like to bike around the city, play various musical instruments, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, research urban history, and spend time with my partner and our <a href="https://www.instagram.com/mrsbeagleface/" target="_blank">doggo</a>.  
+When I’m not making websites, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and our <a href="https://www.instagram.com/mrsbeagleface/" target="_blank">doggo</a>.  
 
 <br/>
 
