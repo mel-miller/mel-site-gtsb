@@ -10,7 +10,7 @@ library.add(fab, fas)
 const Link = styled.a`
   color: white;
   font-size: 1.875em;
-  padding: 0.125em 0.375em;
+  padding: 10px 12px;
     &:hover {
       color: ${props => props.theme.blueLight};
     }

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Picture = styled(Img)`
   border-radius: 50%;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 `
 
 const MelMug = () => (
