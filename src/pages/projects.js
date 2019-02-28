@@ -18,20 +18,20 @@ const ProjectCategories = styled.div`
 
 const DevelopmentText =
   <>
-    <p>Code examples from public repositories can be found on my <a href="https://github.com/mel-miller">GitHub profile</a>.</p>
+    <p>Code examples from public repositories can be found on my <a href="https://github.com/mel-miller" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
     <p>Additional examples are available upon request.</p>
   </>;
 
 const DesignText =
   <>
-    <p>Check out my<a href="https://www.behance.net/MILLER2676e7fa"> Behance profile </a> for various examples of web and graphic design.</p>
+    <p>Check out my<a href="https://www.behance.net/MILLER2676e7fa" target="_blank" rel="noopener noreferrer"> Behance profile </a> for various examples of web and graphic design.</p>
     <p>Additional examples are available upon request.</p>
   </>;
 
 const PhotoText =
   <>
-    <p>My <a href="https://melissamiller.photoshelter.com"> Photography Website </a> contains a partial archive of my photography artwork.</p>
-    <p>I also have a <a href="https://www.behance.net/gallery/76793947/Photojournalism"> Photojournalism Portfolio </a> from my past life as a photojournalist.</p>
+    <p>My <a href="https://melissamiller.photoshelter.com" target="_blank" rel="noopener noreferrer"> Photography Website </a> contains a partial archive of my photography artwork.</p>
+    <p>I also have a <a href="https://www.behance.net/gallery/76793947/Photojournalism" target="_blank" rel="noopener noreferrer"> Photojournalism Portfolio </a> from my past life as a photojournalist.</p>
   </>;
 
 
