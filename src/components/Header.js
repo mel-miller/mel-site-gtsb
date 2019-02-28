@@ -9,9 +9,8 @@ import logo from '../images/mm-logo.svg'
 const Wrapper = styled.header`
   background: ${props => props.theme.blue};
   color: white;
-  padding-top: 16px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid ${props => props.theme.blueLight};
+  padding-top: 18px;
+  padding-bottom: 12px;
 `
 const HomeLink = styled(Link)`
   display: inline-block;

@@ -36,9 +36,9 @@ body.center {
 //overrides or new styles here
 
 a {
-  color: $orange;
+  color: $blue;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
 
   &:focus {
     outline: 1px dotted $orange;
@@ -47,6 +47,7 @@ a {
 
   &:hover {
     text-decoration: underline;
+    color: $orange;
   }
 }
 
