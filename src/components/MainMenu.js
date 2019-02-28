@@ -22,6 +22,7 @@ const MenuLink = styled(Link)`
   &[aria-current="page"] {
     border-bottom: 2px solid ${props => props.theme.blueLight};
     text-decoration: none;
+    padding-bottom: 2px;
   }
 
   &:focus {
@@ -33,6 +34,7 @@ const MenuLink = styled(Link)`
 const MainMenu = () => (
   <Menu aria-label="Main navigation">
     <MenuLink to="/about">About</MenuLink>
+    <MenuLink to="/projects">Projects</MenuLink>
     <MenuLink to="/contact">Contact</MenuLink>
   </Menu>
 )
