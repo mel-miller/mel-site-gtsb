@@ -19,13 +19,13 @@ const ProjectCategories = styled.div`
 const DevelopmentText =
   <>
     <p>Code examples from public repositories can be found on my <a href="https://github.com/mel-miller" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
-    <p>Additional examples are available upon request.</p>
+        <p>Additional examples are available <a href="mailto:miller.2676@gmail.com?subject=Development Work">upon request</a>.</p>
   </>;
 
 const DesignText =
   <>
     <p>Check out my<a href="https://www.behance.net/MILLER2676e7fa" target="_blank" rel="noopener noreferrer"> Behance profile </a> for various examples of web and graphic design.</p>
-    <p>Additional examples are available upon request.</p>
+    <p>Additional examples are available <a href="mailto:miller.2676@gmail.com?subject=Design Work">upon request</a>.</p>
   </>;
 
 const PhotoText =
