@@ -12,22 +12,22 @@ const Category = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5em;
-  padding-top: 2em;
-  margin-top: 1em;
+  padding: 20px;
+  padding-top: 30px;
+  margin-top: 10px;
 
   @media only screen and (max-width: 720px) {
     width: 100%;
-    margin-top: 1.5em;
+    margin-top: 30px;
   }
 `
 const IconWrapper = styled.div`
   background: white;
   border-radius: 50%;
-  height: 6em;
-  width: 6em;
-  padding: 1em;
-  margin-bottom: 1.5em;
+  height: 100px;
+  width: 100px;
+  padding: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

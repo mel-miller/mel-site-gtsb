@@ -12,7 +12,7 @@ const MenuLink = styled(Link)`
   font-size: 16px;
   line-height: 1.9;
   font-weight: 400;
-  margin-right: 1.75em;
+  margin-right: 30px;
 
   &:last-child {
     margin-right: 0;
