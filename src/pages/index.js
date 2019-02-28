@@ -28,7 +28,7 @@ const MoreButton = styled(Link)`
   background: ${props => props.theme.blue};
   display: inline-block;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 
   &:focus {
     outline: 1px dotted white;
