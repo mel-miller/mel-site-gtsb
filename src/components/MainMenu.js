@@ -12,7 +12,7 @@ const MenuLink = styled(Link)`
   font-size: 16px;
   line-height: 1.9;
   font-weight: 400;
-  margin-right: 1.75em;
+  margin-right: 30px;
 
   &:last-child {
     margin-right: 0;
@@ -20,8 +20,10 @@ const MenuLink = styled(Link)`
 
   &:hover,
   &[aria-current="page"] {
+    color: white;
     border-bottom: 2px solid ${props => props.theme.blueLight};
     text-decoration: none;
+    padding-bottom: 2px;
   }
 
   &:focus {
@@ -33,6 +35,7 @@ const MenuLink = styled(Link)`
 const MainMenu = () => (
   <Menu aria-label="Main navigation">
     <MenuLink to="/about">About</MenuLink>
+    <MenuLink to="/projects">Projects</MenuLink>
     <MenuLink to="/contact">Contact</MenuLink>
   </Menu>
 )

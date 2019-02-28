@@ -28,7 +28,7 @@ const MoreButton = styled(Link)`
   background: ${props => props.theme.blue};
   display: inline-block;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 
   &:focus {
     outline: 1px dotted white;
@@ -48,12 +48,12 @@ const MoreButton = styled(Link)`
 `
 
 const IndexPage = () => (
-  <Layout noHeader noFooter>
+  <Layout noFooter>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} bodyClass="blue center" />
     <MelMug />
     <h1>Hey there.</h1>
     <IntroText>My name is Melissa Miller, and I’m a web developer and designer living in San Francisco.</IntroText>
-    <MoreButton to="/about">Yes, there's more.</MoreButton>
+    <MoreButton to="/about">Get to know me.</MoreButton>
     <SocialBlock />
   </Layout>
 )
