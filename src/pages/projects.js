@@ -9,6 +9,11 @@ import ProjectLink from '../components/ProjectLink'
 const ProjectCategories = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 720px) {
+    display: block;
+  }
+
 `
 
 const DevelopmentText =

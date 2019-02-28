@@ -14,7 +14,12 @@ const Category = styled.div`
   align-items: center;
   padding: 1.5em;
   padding-top: 2em;
-  margin-top: 0.5em;
+  margin-top: 1em;
+
+  @media only screen and (max-width: 720px) {
+    width: 100%;
+    margin-top: 1.5em;
+  }
 `
 const IconWrapper = styled.div`
   background: white;
