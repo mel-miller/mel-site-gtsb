@@ -2,19 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-library.add(fab, fas)
+library.add(fas)
 
 const Category = styled.div`
-  width: 30%;
+  width: 31%;
   background: ${props => props.theme.blueLightest};
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.5em;
-  margin-top: 1em;
+  padding-top: 2em;
+  margin-top: 0.5em;
 `
 const IconWrapper = styled.div`
   background: white;
@@ -33,7 +33,7 @@ const Icon = styled(FontAwesomeIcon)`
   font-size: 3em;
 `
 const Description = styled.p`
-
+  text-align: center;
 `
 
 const ProjectLink = ({icon, prefix, link, name, text}) => (

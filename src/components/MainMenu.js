@@ -20,6 +20,7 @@ const MenuLink = styled(Link)`
 
   &:hover,
   &[aria-current="page"] {
+    color: white;
     border-bottom: 2px solid ${props => props.theme.blueLight};
     text-decoration: none;
     padding-bottom: 2px;
