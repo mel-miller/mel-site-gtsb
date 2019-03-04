@@ -58,6 +58,13 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-135545625-1",
+        head: false,
+      },
+    },
     `gatsby-plugin-netlify`,
   ],
 }
