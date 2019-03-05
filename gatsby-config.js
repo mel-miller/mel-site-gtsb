@@ -64,7 +64,7 @@ module.exports = {
         head: false,
       },
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-offline',
   ],
 }
