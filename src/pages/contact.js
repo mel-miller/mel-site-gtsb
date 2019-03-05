@@ -86,7 +86,7 @@ const ContactPage = () => (
         <Label for="message">Message</Label>
         <Textarea name="message" rows="6" />
       </FormField>
-      <Button>Submit</Button>
+      <Button type="submit">Submit</Button>
     </form>
   </Layout>
 )
