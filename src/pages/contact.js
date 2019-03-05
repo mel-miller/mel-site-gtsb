@@ -69,11 +69,12 @@ const ContactPage = () => (
     <SEO title="Contact" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} />
     <h1>Contact Me</h1>
     <form
-      name="mmcontact"
+      name="contact"
       method="POST"
       action="/success"
       data-netlify="true"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <FormFieldShort>
         <Label for="name">Name</Label>
         <Input name="name" type="text"/>
