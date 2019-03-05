@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - Google Analytics.
 
+### Fixed
+- Form Submissions
+
 
 ## [1.3.1] - 2019-02-28
 ### Updated
