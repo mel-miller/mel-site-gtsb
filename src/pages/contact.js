@@ -72,9 +72,11 @@ const ContactPage = () => (
       name="contact"
       method="POST"
       action="/success"
+      netlify-honeypot="bot-field"
       data-netlify="true"
     >
       <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="bot-field" />
       <FormFieldShort>
         <Label for="name">Name</Label>
         <Input name="name" type="text"/>
