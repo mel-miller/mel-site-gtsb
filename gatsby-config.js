@@ -13,7 +13,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
-    'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -65,6 +64,7 @@ module.exports = {
         head: false,
       },
     },
-    `gatsby-plugin-netlify`,
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-offline',
   ],
 }

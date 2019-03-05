@@ -9,7 +9,6 @@ library.add(fab, fas)
 
 const Link = styled.a`
   color: white;
-  font-size: 1.875em;
   padding: 10px 12px;
     &:hover {
       color: ${props => props.theme.blueLight};
@@ -22,7 +21,7 @@ const Link = styled.a`
 const SocialLink = ({icon, prefix, link, name}) => (
   <Link href={link} target="_blank" rel="noopener noreferrer">
     <span className="visually-hidden">{`Link to Melissa's ${name}`}</span>
-    <FontAwesomeIcon icon={[prefix, icon]} fixedWidth />
+    <FontAwesomeIcon icon={[prefix, icon]} size="2x" />
   </Link>
 )
 
