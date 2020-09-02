@@ -27,7 +27,7 @@ const MenuLink = styled(Link)`
   }
 
   &:focus {
-    outline: 1px dotted white;
+    outline: 1px solid white;
     outline-offset: 4px;
   }
 `

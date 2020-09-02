@@ -18,7 +18,7 @@ const Footer = () => (
   <Wrapper>
     <div className="container">
       <SocialBlock />
-      <FinePrint>©2019 mel-miller.com</FinePrint>
+      <FinePrint>©2020 mel-miller.com</FinePrint>
     </div>
   </Wrapper>
 )

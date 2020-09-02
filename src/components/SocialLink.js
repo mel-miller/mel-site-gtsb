@@ -14,7 +14,7 @@ const Link = styled.a`
       color: ${props => props.theme.blueLight};
     }
     &:focus {
-      outline: 1px dotted white;
+      outline: 1px solid white;
     }
 `
 

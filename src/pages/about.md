@@ -10,7 +10,7 @@ I began using Drupal in 2011 and have been an evangelist for it ever since. I’
 
 I’ve recently increased my scope and am also working on projects using React.js and Gatsby.js.
 
-When I’m not making websites, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and our <a href="https://www.instagram.com/mrsbeagleface/" target="_blank">doggo</a>.  
+When I’m not making websites, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and our doggos.  
 
 <br/>
 
@@ -20,8 +20,9 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 - **Development Frameworks:** Drupal, React.js, Gatsby.js  
 - **Programming Languages:** HTML, CSS,  JavaScript, PHP  
-- **Theming**: SASS, LESS, Styled Components, Twig, PHPTemplate  
-- **Development Tools:** Git, Gitflow, NPM, Composer  
+- **Theming**: SASS, LESS, Styled Components, Twig, PHPTemplate
+- **Development Tools:** Git, Gitflow, NPM, Composer, Gulp
+- **Design System Development**: Fractal, Pattern Lab
 - **Design Tools:** Adobe Creative Suite, Sketch  
 - **Project Management:** Certified PMP, Scrum, Kanban, Jira  
 
@@ -32,7 +33,7 @@ When I’m not making websites, I like to bike around the city, play various mus
 #### The Ohio State University | Columbus, OH
 ##### AUGUST 2012 – PRESENT
 
-Direct all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management —  for the Offices of the Chief Information Officer Marketing and Communication department.
+Direct all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management —  for the Office of the Chief Information Officer Marketing and Communication department.
 
 Lead a diverse team of developers, UX designers, and visual communicators who are responsible for a large portfolio of websites, web applications, digital assets, style guides, and accessible document templates.
 
@@ -87,7 +88,15 @@ Advised student editors on all visual-based aspects of newspaper production for 
 
 ## SELECTED PRESENTATIONS
 
-### Higher Education Summit: Panel on Community Building (panelist)
+### HighEdWeb Drupal Discussion (panelist)
+#### HighEdWeb Association
+##### July 2020
+
+### Higher Education Summit: Working Together, Yet Apart (panelist)
+#### Bay Area Drupal Camp
+##### October 2019
+
+### Higher Education Summit: Community Building (panelist)
 #### Bay Area Drupal Camp
 ##### October 2018
 
