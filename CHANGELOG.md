@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.4.0] - 2020-09-02
+### Added
+- Content updates to about page and footer.
+
+### Changed
+- Focus state styles.
+
 
 ## [1.3.2] - 2019-03-04
 ### Added
