@@ -50,7 +50,7 @@ const Button = styled.button`
   margin-top: 30px;
 
   &:focus {
-    outline: 1px dotted black;
+    outline: 1px solid black;
     outline-offset: 2px;
   }
 
