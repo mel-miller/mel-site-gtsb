@@ -41,7 +41,7 @@ a {
   font-weight: 600;
 
   &:focus {
-    outline: 1px dotted $orange;
+    outline: 1px solid $orange;
     outline-offset: 1px;
   }
 
