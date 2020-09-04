@@ -1,11 +1,8 @@
 //// import variables ////
 @import './vars.scss';
 
-
 //// global styles ////
 //resets
-
-
 
 //layout
 .container {
@@ -41,7 +38,7 @@ a {
   font-weight: 600;
 
   &:focus {
-    outline: 1px solid $orange;
+    outline: 2px solid $orange;
     outline-offset: 1px;
   }
 
@@ -55,9 +52,10 @@ a {
 
 //accessibility
 .visually-hidden {
-    position: absolute !important;
-    height: 1px; width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
 }
