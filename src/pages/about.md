@@ -8,7 +8,7 @@ I am a designer turned developer with a penchant for front-end development and s
 
 I began using Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps, helped organize a few, and have attended DrupalCon each year since 2012.
 
-While Drupal is my primary development tool, I also work with WordPress, React.js, and Gatsby.js, and have been recently focusing on building design systems using Fractal and Pattern Lab.
+While Drupal is my primary development framework, I also work with WordPress, React.js, and Gatsby.js, and have been recently focusing on building design systems using Fractal and Pattern Lab.
 
 When I’m not making websites, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and our two dogs.
 
