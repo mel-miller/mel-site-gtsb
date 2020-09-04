@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import MainMenu from './MainMenu'
 import logo from '../images/mm-logo.svg'
 
-
 const Wrapper = styled.header`
   background: ${props => props.theme.blue};
   color: white;
@@ -14,6 +13,10 @@ const Wrapper = styled.header`
 `
 const HomeLink = styled(Link)`
   display: inline-block;
+
+  &:focus {
+    outline: 2px solid white;
+  }
   &:hover {
     filter: brightness(2);
   }

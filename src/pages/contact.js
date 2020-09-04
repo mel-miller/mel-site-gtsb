@@ -66,7 +66,16 @@ const Button = styled.button`
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} />
+    <SEO
+      title="Contact"
+      keywords={[
+        `gatsby`,
+        `application`,
+        `react`,
+        `drupal developer`,
+        `designer`,
+      ]}
+    />
     <h1>Contact Me</h1>
     <form
       name="contact"
@@ -79,11 +88,11 @@ const ContactPage = () => (
       <input type="hidden" name="bot-field" />
       <FormFieldShort>
         <Label for="name">Name</Label>
-        <Input name="name" type="text"/>
+        <Input name="name" type="text" />
       </FormFieldShort>
       <FormFieldShort>
         <Label for="email">Email</Label>
-        <Input name="email" type="email"/>
+        <Input name="email" type="email" />
       </FormFieldShort>
       <FormField>
         <Label for="message">Message</Label>
