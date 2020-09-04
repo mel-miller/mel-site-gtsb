@@ -34,11 +34,11 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 ##### AUGUST 2012 – PRESENT
 
-Direct all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
+Directs all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
 
-Lead a diverse team of developers, UX designers, and visual communicators who are responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates.
+Leads a diverse team of developers, UX designers, and visual communicators who are responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates.
 
-Work hands-on with various development frameworks and design tools — including the development of Drupal websites, distributions, modules and themes.
+Works hands-on with various development frameworks and design tools — including the development of Drupal websites, distributions, modules and themes.
 
 ### Web Communication Specialist
 
