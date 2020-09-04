@@ -9,16 +9,16 @@ library.add(fab, fas)
 
 const Link = styled.a`
   color: white;
-  padding: 10px 12px;
-    &:hover {
-      color: ${props => props.theme.blueLight};
-    }
-    &:focus {
-      outline: 1px solid white;
-    }
+  padding: 20px 12px 10px;
+  &:hover {
+    color: ${props => props.theme.blueLight};
+  }
+  &:focus {
+    outline: 2px solid white;
+  }
 `
 
-const SocialLink = ({icon, prefix, link, name}) => (
+const SocialLink = ({ icon, prefix, link, name }) => (
   <Link href={link} target="_blank" rel="noopener noreferrer">
     <span className="visually-hidden">{`Link to Melissa's ${name}`}</span>
     <FontAwesomeIcon icon={[prefix, icon]} size="2x" />

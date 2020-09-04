@@ -19,7 +19,7 @@ const MenuLink = styled(Link)`
   }
 
   &:hover,
-  &[aria-current="page"] {
+  &[aria-current='page'] {
     color: white;
     border-bottom: 2px solid ${props => props.theme.blueLight};
     text-decoration: none;
@@ -27,7 +27,7 @@ const MenuLink = styled(Link)`
   }
 
   &:focus {
-    outline: 1px solid white;
+    outline: 2px solid white;
     outline-offset: 4px;
   }
 `

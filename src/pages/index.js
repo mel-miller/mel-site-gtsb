@@ -31,7 +31,9 @@ const MoreButton = styled(Link)`
   margin-bottom: 60px;
 
   &:focus {
-    outline: 1px solid white;
+    color: ${props => props.theme.blue};
+    background: white;
+    outline: 2px solid white;
     outline-offset: 4px;
   }
 
@@ -49,10 +51,23 @@ const MoreButton = styled(Link)`
 
 const IndexPage = () => (
   <Layout noFooter>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `drupal developer`, `designer`]} bodyClass="blue center" />
+    <SEO
+      title="Home"
+      keywords={[
+        `gatsby`,
+        `application`,
+        `react`,
+        `drupal developer`,
+        `designer`,
+      ]}
+      bodyClass="blue center"
+    />
     <MelMug />
     <h1>Hey there.</h1>
-    <IntroText>My name is Melissa Miller, and I’m a web developer and designer living in Oakland, California.</IntroText>
+    <IntroText>
+      My name is Melissa Miller, and I’m a web developer and designer living in
+      Oakland, California.
+    </IntroText>
     <MoreButton to="/about">Get to know me.</MoreButton>
     <SocialBlock />
   </Layout>
