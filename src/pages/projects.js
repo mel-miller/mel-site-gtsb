@@ -24,7 +24,7 @@ const DevelopmentText =
 
 const DesignText =
   <>
-    <p>Check out my<a href="https://www.behance.net/MILLER2676e7fa" target="_blank" rel="noopener noreferrer"> Behance profile </a> for various examples of web and graphic design.</p>
+    <p>While I don't do much design work these days, I have some older examples in my<a href="https://www.behance.net/miller2676/" target="_blank" rel="noopener noreferrer"> Behance profile</a>.</p>
     <p>Additional examples are available <a href="mailto:miller.2676@gmail.com?subject=Design Work">upon request</a>.</p>
   </>;
 

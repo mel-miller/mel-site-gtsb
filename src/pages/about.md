@@ -4,11 +4,11 @@ slug: '/about'
 title: 'About Me'
 ---
 
-I am a designer turned developer with a penchant for front-end development and site building.
+I am a designer turned full-stack developer with a specialization in front-end development, site theming, and design system development. 
 
-I began using Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps, helped organize a few, and have attended DrupalCon each year since 2012.
+I began developing for Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps, helped organize a few, and have attended DrupalCon consistently since 2012.
 
-While Drupal is my primary development framework, I also work with WordPress, React.js, and Gatsby.js, and have been recently focusing on building design systems using Fractal and Pattern Lab.
+While Drupal has historically been my primary development framework, I am always excited to dig into new technologies. I have spent the past few years working increasingly more and more in the JavaScript application space with React and React-based frameworks such as Gatsby and Docusaurus. I also have extensive experience building component-based design systems.
 
 When I’m not making websites, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and our two dogs.
 
@@ -16,15 +16,15 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 ---
 
-## KEY SKILLS
+## SELECTED SKILLS
 
-- **Development Frameworks:** Drupal, WordPress, React.js, Gatsby.js
-- **Programming Languages:** HTML, CSS, JavaScript, PHP
-- **Development Tools and Methodologies:** Git, Gitflow, Node/NPM, Composer, Gulp
-- **Design System Development**: Fractal, Pattern Lab
-- **Theming**: SASS, LESS, Styled Components, Handlebars, Twig, PHPTemplate
+- **Development Frameworks:** Drupal, React, Gatsby
+- **Languages:** HTML, CSS, JavaScript, PHP
+- **Development Tools:** Git, GitLab CI, NPM, Composer, Gulp
+- **Design System Development**: Fractal, Pattern Lab, Storybook
+- **Theming**: SASS, LESS, Styled Components, Handlebars, Twig, Foundation
 - **Design Tools:** Adobe Creative Suite, Sketch
-- **Project Management:** Certified PMP, Scrum, Kanban, Jira
+- **Project Management:** Certified PMP, Scrum
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -38,7 +38,8 @@ Directs all aspects of web development and visual communication — including st
 
 Leads a diverse team of developers, UX designers, and visual communicators who are responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates.
 
-Works hands-on with various development frameworks and design tools — including the development of Drupal websites, distributions, modules and themes.
+Works hands-on with various development frameworks and design tools — including leading the development of Buckeye UX, a new university-wide design system.
+
 
 ### Web Communication Specialist
 

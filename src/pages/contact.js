@@ -40,7 +40,7 @@ const Textarea = styled.textarea`
 `
 const Button = styled.button`
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 8px 14px;
   text-decoration: none;
   font-weight: 400;
