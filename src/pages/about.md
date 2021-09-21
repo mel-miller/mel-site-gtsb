@@ -18,7 +18,7 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 ## SELECTED SKILLS
 
-- **Development Frameworks:** Drupal, React, Gatsby
+- **Development Frameworks:** Drupal, React, Gatsby, WordPress
 - **Languages:** HTML, CSS, JavaScript, PHP
 - **Development Tools:** Git, GitLab CI, NPM, Composer, Gulp
 - **Design System Development**: Fractal, Pattern Lab, Storybook
@@ -72,6 +72,9 @@ Led a team of production artists and photographers to create product images for 
 ##### JUNE 2001 – JUNE 2006
 
 Advised student editors on all visual-based aspects of newspaper production for the The Lantern — Ohio State's daily student newspaper — including page layout, graphic design, and photography. Taught undergraduate-level courses in newspaper design and photojournalism for the School of Communication.
+
+<br/>
+My full employment history is available on <a href="https://www.linkedin.com/in/melissa-a-miller-6a37744/" target="_blank">LinkedIn</a>.
 
 ## EDUCATION
 
