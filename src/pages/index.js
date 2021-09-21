@@ -19,7 +19,7 @@ const IntroText = styled.p`
 
 const MoreButton = styled(Link)`
   border: 1px solid white;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 8px 14px;
   text-decoration: none;
   font-weight: 400;
@@ -65,7 +65,7 @@ const IndexPage = () => (
     <MelMug />
     <h1>Hey there.</h1>
     <IntroText>
-      My name is Melissa Miller, and I’m a web developer and designer living in
+      My name is Melissa Miller, and I’m a web developer living in
       Oakland, California.
     </IntroText>
     <MoreButton to="/about">Get to know me.</MoreButton>

@@ -12,7 +12,7 @@ const Category = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 22px;
   padding-top: 30px;
   margin-top: 10px;
 
