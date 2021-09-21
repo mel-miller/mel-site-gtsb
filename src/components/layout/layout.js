@@ -19,7 +19,7 @@ const SiteWrapper = styled.div`
 `
 
 // Extract Sass variables into a JS object
-const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./vars.scss');
+const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./vars.scss')
 
 const Layout = ({ children, noHeader, noFooter }) => (
   <ThemeProvider theme={theme}>
@@ -35,15 +35,11 @@ const Layout = ({ children, noHeader, noFooter }) => (
       `}
       render={data => (
         <SiteWrapper>
-          { noHeader
-            ? null
-            : <Header siteTitle={data.site.siteMetadata.title} />
-          }
+          {noHeader ? null : (
+            <Header siteTitle={data.site.siteMetadata.title} />
+          )}
           <MainContent content={children} />
-          { noFooter
-            ? null
-            : <Footer />
-          }
+          {noFooter ? null : <Footer />}
         </SiteWrapper>
       )}
     />
