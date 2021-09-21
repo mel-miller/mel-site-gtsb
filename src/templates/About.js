@@ -13,22 +13,22 @@ const Resume = styled.div`
     margin-bottom: 0;
   }
   h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
     margin-bottom: 10px;
   }
   h4 {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 17px;
+    margin-bottom: 12px;
     font-weight: normal;
   }
   h5 {
     font-size: 14px;
-    color: #6f6f6f;
+    font-weight: normal;
   }
   p {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   ul {
     margin-top: 24px;
