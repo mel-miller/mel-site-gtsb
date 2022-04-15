@@ -34,10 +34,16 @@ const SocialBlock = () => (
       link="https://www.linkedin.com/in/melissa-a-miller-6a37744/"
     />
     <SocialLink
+      name="Twitter"
+      icon="twitter"
+      prefix="fab"
+      link="https://twitter.com/_mel_miller_"
+    />
+    <SocialLink
       name="Instagram"
       icon="instagram"
       prefix="fab"
-      link="https://www.instagram.com/miller2676/"
+      link="https://www.instagram.com/__mel.miller__"
     />
     <SocialLink
       name="Email"
