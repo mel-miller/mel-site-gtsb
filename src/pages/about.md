@@ -32,7 +32,7 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 #### The Ohio State University | Columbus, OH
 
-##### AUGUST 2012 – PRESENT
+##### AUGUST 2012 – December 2021
 
 Directs all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
 
