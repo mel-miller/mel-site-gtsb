@@ -18,15 +18,20 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 ## SELECTED SKILLS
 
-- **Development Frameworks:** Drupal, React, Gatsby, WordPress
-- **Languages:** HTML, CSS, JavaScript, PHP
-- **Development Tools:** Git, GitLab CI, NPM, Composer, Gulp
-- **Design System Development**: Fractal, Pattern Lab, Storybook
-- **Theming**: SASS, LESS, Styled Components, Handlebars, Twig, Foundation
-- **Design Tools:** Adobe Creative Suite, Sketch
+- **Development Frameworks:** Drupal, React, Gatsby, Next.js
+- **Design System Frameworks:**: Storybook, Fractal, Pattern Lab
+- **Design Tools:** Adobe Creative Suite, Figma, Sketch
 - **Project Management:** Certified PMP, Scrum
 
 ## PROFESSIONAL EXPERIENCE
+
+### Senior UX Engineer
+
+#### Pantheon Platform
+
+##### January 2022 – Present
+
+Building the Pantheon Design System. 
 
 ### Associate Director, Web Development & Design
 
@@ -34,12 +39,9 @@ When I’m not making websites, I like to bike around the city, play various mus
 
 ##### August 2012 – December 2021
 
-Directs all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
+Directed all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
 
-Leads a diverse team of developers, UX designers, and visual communicators who are responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates.
-
-Works hands-on with various development frameworks and design tools — including leading the development of Buckeye UX, a new university-wide design system.
-
+Led a diverse team of developers, UX designers, and visual communicators who were responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates. Also, worked hands-on with various development frameworks and design tools — including leading the development of Buckeye UX, the university-wide design system.
 
 ### Web Communication Specialist
 
