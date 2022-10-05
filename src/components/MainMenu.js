@@ -36,7 +36,6 @@ const MainMenu = () => (
   <Menu aria-label="Main navigation">
     <MenuLink to="/about">About</MenuLink>
     <MenuLink to="/projects">Projects</MenuLink>
-    <MenuLink to="/contact">Contact</MenuLink>
   </Menu>
 )
 
