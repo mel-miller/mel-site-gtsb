@@ -4,7 +4,7 @@ slug: '/about'
 title: 'About Me'
 ---
 
-I am a designer turned full-stack developer with a specialization in front-end development, site theming, and design system development. 
+I am a designer turned full-stack developer with a specialization in front-end development, site theming, and design system development.
 
 I began developing for Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps and even helped organize a few (BADCamp and Drupal Camp Ohio). While Drupal has historically been my primary development framework, I have recently transitioned my focus to design system development and React.
 
@@ -18,36 +18,48 @@ When I’m not making the web, I like to bike around the city, play various musi
 
 - **Development Frameworks:** Drupal, React, Gatsby, Next.js
 - **Design System Frameworks:**: Storybook, Fractal, Pattern Lab
-- **Design Tools:** Adobe Creative Suite, Figma, Sketch
+- **Design Tools:** Figma, Adobe Creative Suite,
 - **Project Management:** Certified PMP, Scrum
 
 ## PROFESSIONAL EXPERIENCE
 
-### Senior UX Engineer
+### Staff UX Engineer
 
 #### Pantheon Platform
 
 ##### January 2022 – Present
 
-Building the Pantheon Design System. 
+Product Owner and Tech Lead for the Pantheon Design System. System implementations include React and Twig-based component libraries, a design token library, and a Figma-based UI kit.
 
-### Associate Director, Web Development & Design
+### Director, Web Development & Design
 
 #### The Ohio State University | Columbus, OH
 
-##### August 2012 – December 2021
+##### August 2013 – December 2021
 
-Directed all aspects of web development and visual communication — including strategic planning, policy development, technical direction, visual branding, service design, and resource management — for the Office of the Chief Information Officer Marketing and Communication department.
+Led a diverse team of developers and designers and was responsible for a large portfolio of websites, a website-building platform, web applications, digital assets, component libraries, and accessible document templates for The Office of the Chief Information Officer.
 
-Led a diverse team of developers, UX designers, and visual communicators who were responsible for a large portfolio of websites, web applications, digital assets, style guides, component libraries, and accessible document templates. Also, worked hands-on with various development frameworks and design tools — including leading the development of Buckeye UX, the university-wide design system.
+Co-founded the first university-wide design system.
 
-### Web Communication Specialist
+
+### Web Developer and Graphic Designer
+
+#### The Ohio State University | Columbus, OH
+
+#####  July 2012 – August 2013
+
+Worked on the Digital First university-wide initiative providing branding, graphic design, and web development.
+
+
+### Graphic Designer and Web Communications Specialist
 
 #### The Ohio State University | Columbus, OH
 
 ##### March 2008 – August 2012
 
-Provided web development, graphic design, photography, and project planning for Ohio State Transportation & Parking Services.
+Provided web development, graphic design, photography, and project planning for Ohio State
+Transportation & Parking Services.
+
 
 ### Contract Photojournalist
 
@@ -57,7 +69,7 @@ Provided web development, graphic design, photography, and project planning for 
 
 Photographed a variety of news and sporting events, on deadline, for a series of weekly newspapers.
 
-### Production Supervisor
+### Image Production Supervisor
 
 #### Art.com | Columbus, OH
 
@@ -72,6 +84,7 @@ Led a team of production artists and photographers to create product images for 
 ##### June 2001 – June 2006
 
 Advised student editors on all visual-based aspects of newspaper production for the The Lantern — Ohio State's daily student newspaper — including page layout, graphic design, and photography. Taught undergraduate-level courses in newspaper design and photojournalism for the School of Communication.
+
 
 <br/>
 My full employment history is available on <a href="https://www.linkedin.com/in/melissa-a-miller-6a37744/" target="_blank">LinkedIn</a>.
