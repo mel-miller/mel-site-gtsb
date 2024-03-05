@@ -65,7 +65,7 @@ const IndexPage = () => (
     <MelMug />
     <h1>Hey there.</h1>
     <IntroText>
-      My name is Melissa Miller, and I’m a web developer living in
+      My name is Melissa Miller, and I’m a UX engineer and designer living in
       Oakland, California.
     </IntroText>
     <MoreButton to="/about">Get to know me.</MoreButton>
