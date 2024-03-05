@@ -4,11 +4,11 @@ slug: '/about'
 title: 'About Me'
 ---
 
-I am a designer turned full-stack developer with a specialization in front-end development, site theming, and design system development.
+I am a front-end developer, designer, and leader who has extensive experience with building design systems and other tools to enable content creators.
 
-I began developing for Drupal in 2011 and have been an evangelist for it ever since. I’ve spoken at various Drupal camps and even helped organize a few (BADCamp and Drupal Camp Ohio). While Drupal has historically been my primary development framework, I have recently transitioned my focus to design system development and React.
+I have a passion for creating and maintaining design systems and have been working in this space for several years. I am currently leading the development of the Pantheon Design System. In my previous role at The Ohio State University, I was a co-founder of their first university-wide design system.
 
-When I’m not making the web, I like to bike around the city, play various musical instruments (most recently on <a href="https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus" target="_blank">this album</a>), research urban history, <a href="https://melissamiller.photoshelter.com" target="_blank">take photos</a>, and spend time with my partner and <a href="https://www.instagram.com/mrsbeagleface/" target="_blank">our dog</a>.
+When I'm not building the web, I like to play music (most recently on <a href='https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus'target='_blank'> this album</a>), research urban history, <a href='https://melissamiller.photoshelter.com' target='_blank'>take photos</a>, and spend time with my partner and our dog.
 
 <br/>
 
