@@ -8,7 +8,7 @@ I am a front-end developer, designer, and leader who has extensive experience wi
 
 I have a passion for creating and maintaining design systems and have been working in this space for several years. I am currently leading the development of the Pantheon Design System. In my previous role at The Ohio State University, I was a co-founder of their first university-wide design system.
 
-When I'm not building the web, I like to play music (most recently on <a href='https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus'target='_blank'> this album</a>), research urban history, <a href='https://melissamiller.photoshelter.com' target='_blank'>take photos</a>, and spend time with my partner and our dog.
+When I'm not building the web, I like to play music (most recently on <a href='https://open.spotify.com/album/0Pb37ITfck6eATunsfOgus' target='_blank'> this album</a>), research urban history, <a href='https://melissamiller.photoshelter.com' target='_blank'>take photos</a>, and spend time with my partner and our dog.
 
 <br/>
 
