@@ -18,7 +18,7 @@ When I'm not building the web, I like to play music (most recently on <a href='h
 
 - **Development Frameworks:** React, Next.js, Gatsby, Drupal
 - **Design System Frameworks:** Storybook, Style Dictionary
-- **Design Tools:** Figma, Adobe Creative Suite,
+- **Design Tools:** Figma, Adobe Creative Suite
 - **Project Management:** Certified PMP, Scrum
 
 ## PROFESSIONAL EXPERIENCE
